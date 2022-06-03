@@ -1,11 +1,12 @@
-<h1 align="center"> Simple Weather Scrapping title</h1>
+<h1 align="center"> Simple Weather Scrapping</h1>
 
 
 This program is a simple weather scrapping with Python and Docker.
 
 It use the small, more complete, Python Docker image based on Alpine Linux. 
 
-## Prerequisite 
+<h2 align="center">Prerequisite</h2>
+  
 
 To launch this program, you need :
   - A latitude
@@ -13,7 +14,8 @@ To launch this program, you need :
   - An OpenWeather API key
   - Docker
  
- ## How to launch it 
+ <h2 align="center">How to launch it</h2>
+
  
  1- Download this Github project 
  2- Pull the Docker image https://hub.docker.com/r/abzer34/weather
@@ -21,7 +23,8 @@ To launch this program, you need :
  > docker run --env LAT="*****" --env LONG="*****" --env API_KEY="*****" weather:0.0.4
 
 
-### Built with 
+<h3 align="center">Built with </h3>
+
 - Python
 - Docker
 - OpenWeather API
