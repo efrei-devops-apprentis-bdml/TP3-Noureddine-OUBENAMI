@@ -1,5 +1,6 @@
 <h1 align="center"> Simple Weather Scrapping</h1>
 
+<!--notes--><!--/notes-->
 
 This program is a simple weather scrapping with Python and Docker.
 
