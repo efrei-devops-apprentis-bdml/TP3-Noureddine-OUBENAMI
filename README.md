@@ -2,9 +2,10 @@
 
 <!--notes--><!--/notes-->
 
-This program is a simple weather scrapping with Python and Docker.
+This program is a simple weather scrapping with Python and Docker. 
+I created a wrapper that returns the weather for a given location with its latitude and longitude (passed in environment variable) using openweather API
 
-It use the small, more complete, Python Docker image based on Alpine Linux. 
+It also use the small, more complete, Python Docker image based on Alpine Linux. 
 
 <h2 align="center">Prerequisite</h2>
   
