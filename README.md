@@ -20,7 +20,9 @@ To launch this program, you need :
 
  
  1- Download this Github project 
+ 
  2- Pull the Docker image https://hub.docker.com/r/abzer34/weather
+ 
  3- Write this script in your CLI and fill it with your latitude, longitude and API key value
  > docker run --env LAT="*****" --env LONG="*****" --env API_KEY="*****" weather:0.0.4
 
