@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag abzer34/weather:0.0.4
       
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/abzer34/weather
+      run: docker push ${{secrets.DOCKER_USER}}/weather
