@@ -17,7 +17,7 @@ app.config["DEBUG"] = True
 def wrap():
     lat = request.args["lat"]
     lon = request.args["lon"]
-    api_key = '240aa650f4db4e154a07d0459c30a347'
+    api_key = os.environ['API_KEY']
     url = "https://api.openweathermap.org/data/2.5/onecall?lat=%s&lon=%s&appid=%s&units=metric" % (lat, lon, api_key)
 
     weather_data = requests.get(url).json()
