@@ -20,6 +20,8 @@ jobs:
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run: |
          docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+    - name: Verify errors Docker file
+      run: docker run --rm -i hadolint/hadolint < Dockerfile
     - name: Build the docker image
       run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/efrei-devops-tp2:0.0.1
       
