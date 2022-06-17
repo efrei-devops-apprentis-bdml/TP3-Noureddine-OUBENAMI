@@ -17,7 +17,9 @@ jobs:
           uses: azure/login@v1
           with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-        
+        - uses: hadolint/hadolint-action@v2.0.0
+          with:
+            dockerfile: Dockerfile
         - name: 'Build and push image'
           uses: azure/docker-login@v1
           with:
