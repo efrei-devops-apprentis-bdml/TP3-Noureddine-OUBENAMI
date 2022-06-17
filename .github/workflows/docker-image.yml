@@ -45,3 +45,4 @@ jobs:
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
             name: ${{ secrets.idecole }}
             location: 'france central'
+            
