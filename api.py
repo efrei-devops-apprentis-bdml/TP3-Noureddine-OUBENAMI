@@ -30,7 +30,6 @@ def wrap():
     ### Affichage
     return weather_data['current']
 
-
 if __name__ == "__main__":
     port=80
     app.run(host="0.0.0.0", port=port)
