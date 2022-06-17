@@ -31,4 +31,6 @@ def wrap():
     return weather_data['current']
 
 
-app.run(port= 8081)
+if __name__ == "__main__":
+    port=80
+    app.run(host="0.0.0.0", port=port)
