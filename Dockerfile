@@ -4,6 +4,6 @@ ENV BOT_NAME='Weather API TP1'
 COPY requirements.txt requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-EXPOSE 8081
+EXPOSE 80
   CMD [ "python3", "api.py"]
 
